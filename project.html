@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="Assets/Css/project.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav_left">
+        <ul>
+          <li><img src="Assets/picture/logo.png" alt="logo" /></li>
+          <li>
+            <a style="text-decoration: rgb(255, 81, 0)" href="index.html"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a style="text-decoration: rgb(255, 81, 0)" href="project.html"
+              >My Project</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="nav_right">
+        <button onclick="location.href = 'contact.html'">Contact Me</button>
+      </div>
+    </nav>
+
+    <form id="projctform" class="form" onsubmit="submitData(event)">
+      <h1>ADD MY PROJECT</h1>
+      <div>
+        <label for="input-project">Project Name</label>
+        <input type="text" id="input-project" />
+      </div>
+      <div class="date-fields">
+        <div class="date">
+          <label for="input-start">Start Date</label>
+          <input type="date" id="input-start" />
+        </div>
+        <div>
+          <label for="input-end">End Date</label>
+          <input type="date" id="input-end" />
+        </div>
+      </div>
+      <div>
+        <label for="input-description">Description</label>
+        <textarea id="input-description"></textarea>
+      </div>
+
+      <label for="input-technologies">Technologies</label>
+      <div class="technologies-container">
+        <div class="checkbox-grid">
+          <input type="checkbox" id="checkbox1" /><label for="checkbox1"
+            >Node Js</label
+          >
+        </div>
+        <div class="checkbox-grid">
+          <input type="checkbox" id="checkbox2" /><label for="checkbox2"
+            >React Js</label
+          >
+        </div>
+        <div class="checkbox-grid">
+          <input type="checkbox" id="checkbox3" /><label for="checkbox3"
+            >Angular</label
+          >
+        </div>
+        <div class="checkbox-grid">
+          <input type="checkbox" id="checkbox4" /><label for="checkbox4"
+            >Vue Js</label
+          >
+        </div>
+      </div>
+      <div>
+        <label for="input-image">Upload Image</label>
+        <input type="file" id="input-image" />
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+
+  <script src="Assets/js/project.js"></script>
+</html>
