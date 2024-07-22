@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(221, 108, 3);
+    margin: 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: white;
+}
+
+nav img {
+    width: 50px;
+}
+
+.nav_left ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+    justify-content: left;
+}
+
+.nav_right {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+nav button {
+    border-radius: 20px;
+    background-color: rgb(221, 108, 3);
+    font-size: medium;
+    color: aliceblue;
+}
+
+nav button:hover {
+    background-color: rgb(135, 65, 0);
+}
+
+.container {
+    display: flex;
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+    margin: 50px;
+    padding: 30px;
+    background-color: white;   
+    box-shadow: 0px 20px 30px gray;
+
+}
+.profile {
+    font-size: x-large;
+    text-align: justify;
+    padding: 40px;
+    width: 60%;
+
+}
+
+.download {
+    font-size: large;
+    text-align: justify;
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    border-radius: 20px;
+    background-color: rgb(221, 108, 3);
+    font-size: medium;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.button:hover {
+    background-color: rgb(135, 65, 0);
+}
+
+.social {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+    justify-content: left;
+    margin-top: 30px;
+    font-size: larger;
+}
+
+.card {
+    border: 2px;
+    border-radius: 20px;
+    width: 30%;
+    background-color: white; 
+    font-size: large;
+    text-align: center;  
+    box-shadow: 0px 20px 30px gray;
+}
+
+.img {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
